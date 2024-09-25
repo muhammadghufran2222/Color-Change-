@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+button {
+  background: #66ff00;
+  padding: 10px 20px 10px 20px;
+  border: 0;
+  outline: 0;
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 15px 15px 15px 15px;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+}
